@@ -59,7 +59,7 @@ define(function(require, exports, module) {
     CommandManager.register("Add BDD Test Block", commandName1, addBDDTestBlock);
     CommandManager.register("Add Describe Block", commandName2, addDescribe);
 
-	// Add the cf script commands to a new menu item
+	// Add the testbox commands to a new menu item
     var menuTB = Menus.addMenu("Testbox", "tbMenuScript");
     menuTB.addMenuItem(commandName1);
     menuTB.addMenuItem(commandName2);
